@@ -16,11 +16,10 @@ body{
 }
 main{
     position: relative;
-    height: 100vh;
-    
-    
+    height: 100vh;   
+    display: block;
 }
-section#celular{
+section#tela{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -29,7 +28,29 @@ section#celular{
     width: 250px;
     background:url('imagens/frame-iphonep.png');
     background-repeat: no-repeat;
+}
+#home{
+    width: 212px;
+    height: 376px;
+    position: relative;
+    top: 64px;
+    left: 18px;
+}
+.botao{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+    padding: 10px;
+}
+#menos{
 
+    background-color: blue;
+    width: 90px;
+    height: 450px;
+    padding-top: 15px;
+    position: relative;
+    top: 30px;
+    left: 650px;
 
 }
-
