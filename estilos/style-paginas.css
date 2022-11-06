@@ -1,0 +1,19 @@
+@charset "UTF-8";
+        *{
+            margin: 0px;
+            padding: 0px;
+            width: 200px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .link{
+            background-color: brown;
+            display: block;
+            padding-top: 5px;
+            height: 30px;
+            width: 140px;
+            color: white;
+            padding-left: 60px;
+        }
+        .link:hover{
+            background-color: rgb(219, 26, 26);
+        }
